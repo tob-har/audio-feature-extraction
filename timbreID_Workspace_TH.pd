@@ -2317,9 +2317,9 @@ is set to work with it...);
 #X connect 20 0 19 0;
 #X restore 834 311 pd audio-features-realtime;
 #X obj 701 836 s \$0-r-timbreID-4th-outlet;
-#X obj 366 505 tgl 15 0 empty empty ON/OFF 17 7 0 10 -191407 -4034
+#X obj 350 507 tgl 15 0 empty empty ON/OFF 17 7 0 10 -191407 -4034
 -1 0 1;
-#X obj 381 543 bng 15 250 50 0 empty empty empty 17 7 0 10 -228856
+#X obj 365 545 bng 15 250 50 0 empty empty empty 17 7 0 10 -228856
 -258113 -1;
 #N canvas 725 25 690 627 specSkewness_1024 0;
 #X obj 23 57 inlet~;
@@ -2353,10 +2353,11 @@ is set to work with it...);
 #X connect 11 0 10 0;
 #X connect 12 0 13 0;
 #X connect 13 0 2 0;
-#X restore 243 527 pd specSkewness_1024;
-#X floatatom 261 552 5 0 0 0 - - -;
-#X obj 246 572 hsl 60 8 -2 2 0 0 empty empty empty -2 -8 0 10 -99865
+#X restore 227 529 pd specSkewness_1024;
+#X floatatom 316 552 5 0 0 0 - - -;
+#X obj 286 571 hsl 60 8 -2 2 0 0 empty empty empty -2 -8 0 10 -99865
 -4034 -1 4251 1;
+#X text 404 532 + Brightness ?;
 #X connect 1 0 3 0;
 #X connect 3 0 4 0;
 #X connect 4 0 2 0;
