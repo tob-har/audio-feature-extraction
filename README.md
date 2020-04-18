@@ -7,7 +7,7 @@ the timbreID external and timbreID library for Pure data.
 
 timbreID_Wokspace.pd is documented inside the patch.
 
-amenbreak.wav is provided as initial audio-file loaded by the patch.
+amenbreak.wav is provided as initial audio file loaded by the patch an must be placed in the same directory then the timbreID_Workspace.
 
 Audio file playback, audio input, three different trigger objects, single- and multi-feature analyzer templates
 and a feature-list-builder are ready to use.
